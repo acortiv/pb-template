@@ -1,17 +1,29 @@
-#Getting Started:
+## Clone the repository
+To clone the repository, open your terminal and run the following command:
 
-In your terminal run:
+\```
+git clone https://github.com/acortiv/pb-template/new/main?filename=README.md
+\```
 
-$ git clone https://github.com/acortiv/pb-template/new/main?filename=README.md
+## Start PocketBase
+To start PocketBase, run:
 
-To start Pocket base run:
+\```
+task start
+\```
 
-$ task start
+## Start the NextJS client
+To start the NextJS client, run:
 
-To start the NextJS client run:
+\```
+npm run dev
+\```
 
-$ npm run dev
+## Deployment tips
+For deployment, use fly.io for PocketBase and Vercel for NextJS. Ensure persistent data management by mounting the `pb_data` to a volume on fly.io, configured in `fly.toml`:
 
-For quickly shipping to Prod:
-
-Use fly.io for PB & Vercel for NextJS.  For persistent data, be sure to mount the pb_data to a volume on fly.io using the [mount] tag in fly.toml.
+\```
+[mount]
+  source = "pb_data"
+  destination = "/path/on/container"
+\```
