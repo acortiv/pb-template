@@ -2,15 +2,15 @@
 
 In your terminal run:
 
-git clone https://github.com/acortiv/pb-template/new/main?filename=README.md
+$ git clone https://github.com/acortiv/pb-template/new/main?filename=README.md
 
 To start Pocket base run:
 
-task start
+$ task start
 
 To start the NextJS client run:
 
-npm run dev
+$ npm run dev
 
 For quickly shipping to Prod:
 
