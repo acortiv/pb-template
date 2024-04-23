@@ -2,7 +2,7 @@
 To clone the repository, open your terminal and run the following command:
 
 ```
-git clone https://github.com/acortiv/pb-template/new/main?filename=README.md
+git clone https://github.com/acortiv/pb-template
 ```
 
 ## Start PocketBase
