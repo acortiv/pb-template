@@ -6,14 +6,14 @@ git clone https://github.com/acortiv/pb-template/new/main?filename=README.md
 ```
 
 ## Start PocketBase
-To start PocketBase, run:
+To start PocketBase cd into the `pb` directory and run:
 
 ```
 task start
 ```
 
 ## Start the NextJS client
-To start the NextJS client, run:
+To start the NextJS client cd into the `client` directory and run:
 
 ```
 npm run dev
